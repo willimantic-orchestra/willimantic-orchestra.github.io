@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-    loadComponent("components/navigation.html", "navbar");
-    loadComponent("components/title.html", "title");
-    loadComponent("components/footer.html", "footer");
+    loadComponent("../components/navigation.html", "navbar");
+    loadComponent("../components/title.html", "title");
+    loadComponent("../components/footer.html", "footer");
 });
 
 function loadComponent(url, elementId) {
