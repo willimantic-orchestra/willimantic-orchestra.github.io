@@ -1,7 +1,7 @@
 body {
     font-family:Georgia, 'Times New Roman', Times, serif ;
-    margin: 5px;
-    padding: 2px;
+    margin: 15px;
+    padding: 12px;
 }
 
 h1, h2{
@@ -64,10 +64,11 @@ footer {
     padding: 10px;
 }
 .main-text{
-    font-size: small;
+    font-size: normal;
+    text-align: left;
 }
 
 .news{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
