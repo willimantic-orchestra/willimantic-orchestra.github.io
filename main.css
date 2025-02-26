@@ -1,10 +1,12 @@
 body {
     font-family:Georgia, 'Times New Roman', Times, serif ;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    margin: 5px;
+    padding: 2px;
 }
 
+h1, h2{
+    text-align: center;
+}
 
 nav {
     background-color: #333;
@@ -29,7 +31,7 @@ nav {
 
 .title-section {
     padding: 10px;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -48,7 +50,6 @@ footer {
 }
 .container{
     display: flex;
-    gap: 10px;
 }
 .column-img{
     flex:20%;
@@ -56,8 +57,17 @@ footer {
 }
 .column-img img{
     max-width: 100%;
+    margin-top: 18px;
 }
 .column-txt{
     flex: 80%;
     padding: 10px;
+}
+.main-text{
+    font-size: small;
+}
+
+.news{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    text-align: center;
 }
