@@ -21,6 +21,7 @@ h1, h2{
 nav {
     background-color: #848181;
     padding: 2px;
+    text-align: center;
     font-size: clamp(16px, 4vw, 24px);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -62,6 +63,15 @@ footer {
 main {
     padding: 5%;
 }
+
+main li{
+    background-color: #848181;
+}
+
+#break{
+    position: relative;
+    top: -7px;
+}
 .container{
     display: flex;
     padding: clamp(1px, 1%, 80px);
@@ -78,6 +88,7 @@ main {
     flex: 80%;
     padding: 10px;
 }
+
 .main-text{
     font-size: clamp(14px, 3vw, 24px);
     text-align: left;

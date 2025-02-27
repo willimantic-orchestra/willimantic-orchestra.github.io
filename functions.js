@@ -12,3 +12,14 @@ function loadComponent(url, elementId) {
         })
         .catch(error => console.error(`Error loading ${url}:`, error));
 }
+
+// window.onload = function(){
+//     const navbar = document.querySelector('#navbar');
+//     const offset = -100;
+//     const navPosition = navbar.getBoundingClientRect().top + window.scrollY -offset;
+//     navbar.scrollIntoView({
+//         behavior:'smooth',
+//         top: navPosition
+//     })
+//     console.log(navPosition)
+// }
